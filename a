@@ -1,0 +1,21 @@
+sourcera@AA3ofSourcerA:/media/sourcera/TEC$ ls
+ corte.nc   superior.nc  'System Volume Information'
+sourcera@AA3ofSourcerA:/media/sourcera/TEC$ ls -a
+ .   ..   corte.nc   superior.nc  'System Volume Information'
+sourcera@AA3ofSourcerA:/media/sourcera/TEC$ cd System\ Volume\ Information/
+sourcera@AA3ofSourcerA:/media/sourcera/TEC/System Volume Information$ ls -a
+.  ..  IndexerVolumeGuid  WPSettings.dat
+sourcera@AA3ofSourcerA:/media/sourcera/TEC/System Volume Information$ cd ..
+sourcera@AA3ofSourcerA:/media/sourcera/TEC$ tree 
+.
+├── corte.nc
+├── superior.nc
+└── System Volume Information
+    ├── IndexerVolumeGuid
+    └── WPSettings.dat
+
+2 directories, 4 files
+sourcera@AA3ofSourcerA:/media/sourcera/TEC$ 
+
+
+
